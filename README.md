@@ -6,7 +6,7 @@
 </div>
 
 
-[![TrêÂ­ade Letal](guia/assets/banner.jpg)](https://inematds.github.io/triade-letal/guia/)
+[![TrêÂ­ade Letal](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/)
 
 **ê°Å¸â¡Â§ê°Å¸â¡Â· [PortuguêÂªs](README.md) êÂ· ê°Å¸â¡Âºê°Å¸â¡Â¸ [English](README.en.md) êÂ· ê°Å¸â¡Âªê°Å¸â¡Â¸ [EspaêÂ±ol](README.es.md)**
 
@@ -20,7 +20,7 @@ Com as trêÂªs, qualquer pessoa que escreva o item 2 pode dar ordens ao agen
 
 ## ê°Å¸ââ Guia de uso
 
-Guia completo (landing + passo a passo): **https://inematds.github.io/triade-letal/guia/**
+Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/arckhe-/guia/**
 
 ## O que tem aqui
 
@@ -33,16 +33,16 @@ Guia completo (landing + passo a passo): **https://inematds.github.io/triade-let
 ## Uso rêÂ¡pido
 
 ```bash
-git clone https://github.com/inematds/triade-letal && cd triade-letal
+git clone https://github.com/linnoff88-dev/triade-letal && cd triade-letal
 python3 inventario.py --demo          # exemplo fictêÂ­cio
 python3 inventario.py --md matriz.md  # sua mêÂ¡quina; grava a matriz
 ```
 
 O script sêÂ³ lêÂª arquivos de configuraêÂ§êÂ£o (`~/.claude.json`, `./.mcp.json`, `~/.codex/config.toml`). NêÂ£o acessa a rede e nêÂ£o imprime segredos. O "talvez" que ele marca êÂ© palpite pelo nome; quem confirma êÂ© vocêÂª.
 
-Inspirado na palestra de Simon Willison sobre os êÂºltimos seis meses de LLMs. Projeto irmêÂ£o: [Arena da Capivara](https://inematds.github.io/arena-capivara/guia/).
+Inspirado na palestra de Simon Willison sobre os êÂºltimos seis meses de LLMs. Projeto irmêÂ£o: [Arena da Capivara](https://linnoff88-dev.github.io/arckhe-/guia/).
 
-LicenêÂ§a MIT êÂ· [INEMA.CLUB](https://inema.club)
+LicenêÂ§a MIT êÂ· [ARCKHÉ AI](https://ARCKHÉ AI)
 
 ---
 

@@ -1,10 +1,10 @@
-# Exemplos: a tríade nos kits de atendimento do INEMA
+# Exemplos: a tríade nos kits de atendimento do ARCKHÉ
 
 Três kits públicos, olhados com o checklist. Conferido no código em 05/10/2026.
 
 ## atende-clinica — bot de clínica no WhatsApp
 
-Guia: https://inematds.github.io/atende-clinica/guia/
+Guia: https://linnoff88-dev.github.io/arckhe-/guia/
 
 | Perna | Tem? | Onde |
 |---|---|---|
@@ -21,13 +21,13 @@ Guia: https://inematds.github.io/atende-clinica/guia/
 
 ## reserva-restaurante — reservas por chat e WhatsApp
 
-Guia: https://inematds.github.io/reserva-restaurante/guia/
+Guia: https://linnoff88-dev.github.io/arckhe-/guia/
 
 Dados privados previstos (clientes, telefones, aniversários), entrada de terceiros (chat e WhatsApp) e saída restrita (resposta ao próprio cliente, aviso à equipe). A conversa usa gatilhos fixos ("reservar") e um FAQ estático. Além disso, um script de verificaçêo **reprova o build** se aparecer biblioteca de LLM ou de HTTP genérico no código. Esse script é uma proteçêo barata e forte: impede que alguém, com pressa, acrescente a perna que faltava.
 
 ## reserva-hotel — reservas e pré-check-in
 
-Guia: https://inematds.github.io/reserva-hotel/guia/
+Guia: https://linnoff88-dev.github.io/arckhe-/guia/
 
 Mesmo desenho do restaurante, com um vetor a mais: o arquivo `.ics` das OTAs (Booking, Airbnb) e o pré-check-in em texto livre. Os dois sêo **conteúdo de terceiros**. Hoje sêo lidos por código, nêo por modelo. Se um LLM for ler esse texto, trate-o como entrada hostil: extraia campos (datas, nome, quarto) e nunca dê ao mesmo modelo uma ferramenta de envio com destino livre.
 

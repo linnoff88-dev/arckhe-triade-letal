@@ -1,6 +1,6 @@
 # Tríada Letal
 
-[![Tríada Letal](guia/assets/banner-es.jpg)](https://inematds.github.io/triade-letal/guia/es/)
+[![Tríada Letal](guia/assets/banner-es.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/es/)
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -14,7 +14,7 @@ Con las tres, cualquiera que escriba el punto 2 puede darle órdenes al agente. 
 
 ## 📖 Guía de uso
 
-Guía completa (landing + paso a paso): **https://inematds.github.io/triade-letal/guia/es/**
+Guía completa (landing + paso a paso): **https://linnoff88-dev.github.io/arckhe-/guia/es/**
 
 ## Qué hay aquí
 
@@ -27,13 +27,13 @@ Guía completa (landing + paso a paso): **https://inematds.github.io/triade-leta
 ## Uso rápido
 
 ```bash
-git clone https://github.com/inematds/triade-letal && cd triade-letal
+git clone https://github.com/linnoff88-dev/triade-letal && cd triade-letal
 python3 inventario.py --demo          # ejemplo ficticio
 python3 inventario.py --md matriz.md  # tu máquina; graba la matriz
 ```
 
 El script solo lee archivos de configuración (`~/.claude.json`, `./.mcp.json`, `~/.codex/config.toml`). No usa la red y no imprime secretos. El "talvez" (quizás) que marca es una suposición por el nombre; tú lo confirmas. La salida del script está en portugués.
 
-Inspirado en la charla de Simon Willison sobre los últimos seis meses de LLMs. Proyecto hermano: [Arena del Capibara](https://inematds.github.io/arena-capivara/guia/es/).
+Inspirado en la charla de Simon Willison sobre los últimos seis meses de LLMs. Proyecto hermano: [Arena del Capibara](https://linnoff88-dev.github.io/arckhe-/guia/es/).
 
-Licencia MIT · [INEMA.CLUB](https://inema.club)
+Licencia MIT · [ARCKHÉ AI](https://ARCKHÉ AI)

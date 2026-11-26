@@ -68,4 +68,4 @@ O risco está no **agente que enxerga tudo junto**. Um MCP de busca na web é in
 
 ---
 
-Exemplos reais com os kits do INEMA: [EXEMPLOS.md](EXEMPLOS.md).
+Exemplos reais com os kits do ARCKHÉ: [EXEMPLOS.md](EXEMPLOS.md).

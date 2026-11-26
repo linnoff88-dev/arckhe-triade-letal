@@ -1,6 +1,6 @@
 # Lethal Trifecta
 
-[![Lethal Trifecta](guia/assets/banner-en.jpg)](https://inematds.github.io/triade-letal/guia/en/)
+[![Lethal Trifecta](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/arckhe-/guia/en/)
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -14,7 +14,7 @@ With all three, anyone who writes item 2 can give the agent orders. The defense 
 
 ## 📖 Guide
 
-Full guide (landing + step by step): **https://inematds.github.io/triade-letal/guia/en/**
+Full guide (landing + step by step): **https://linnoff88-dev.github.io/arckhe-/guia/en/**
 
 ## What's here
 
@@ -27,13 +27,13 @@ Full guide (landing + step by step): **https://inematds.github.io/triade-letal/g
 ## Quick start
 
 ```bash
-git clone https://github.com/inematds/triade-letal && cd triade-letal
+git clone https://github.com/linnoff88-dev/triade-letal && cd triade-letal
 python3 inventario.py --demo          # fictional example
 python3 inventario.py --md matriz.md  # your machine; writes the matrix
 ```
 
 The script only reads configuration files (`~/.claude.json`, `./.mcp.json`, `~/.codex/config.toml`). It does not touch the network and does not print secrets. Its "talvez" (maybe) marks are a guess based on the name; you confirm them. The script output is in Portuguese.
 
-Inspired by Simon Willison's talk on the last six months in LLMs. Sister project: [Capybara Arena](https://inematds.github.io/arena-capivara/guia/en/).
+Inspired by Simon Willison's talk on the last six months in LLMs. Sister project: [Capybara Arena](https://linnoff88-dev.github.io/arckhe-/guia/en/).
 
-MIT license · [INEMA.CLUB](https://inema.club)
+MIT license · [ARCKHÉ AI](https://ARCKHÉ AI)

