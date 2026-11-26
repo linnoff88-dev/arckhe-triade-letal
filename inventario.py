@@ -2,7 +2,7 @@
 """Inventário da tríade letal: lista os servidores MCP que seus agentes enxergam
 e monta a matriz para VOCÊ preencher (dados privados / conteúdo de terceiros / canal de saída).
 
-O script NÃO decide se você está seguro. Ele só junta o que está configurado e dá um palpite
+O script NêO decide se você está seguro. Ele só junta o que está configurado e dá um palpite
 pelo nome — quem confirma é você, olhando o que cada ferramenta faz de verdade.
 
 Lê (só leitura, nunca imprime segredo):
@@ -110,7 +110,7 @@ def main():
             linhas.append((fonte, nome, transporte(cfg or {}), p))
 
     if not linhas:
-        print("Nenhum servidor MCP encontrado. Isso não zera o risco: confira também as ferramentas")
+        print("Nenhum servidor MCP encontrado. Isso nêo zera o risco: confira também as ferramentas")
         print("nativas do agente (navegador, shell, envio de mensagem) na matriz em CHECKLIST.md.")
         return 0
 
@@ -130,7 +130,7 @@ def main():
 
     if a.md:
         md = ["# Matriz da tríade letal", "",
-              "Preencha com sim/não depois de olhar o que cada ferramenta faz. 'talvez' é só palpite do nome.", "",
+              "Preencha com sim/nêo depois de olhar o que cada ferramenta faz. 'talvez' é só palpite do nome.", "",
               "| onde | servidor | dados privados | conteúdo de terceiros | canal de saída | o que vou cortar |",
               "|---|---|---|---|---|---|"]
         for fonte, nome, tr, p in linhas:

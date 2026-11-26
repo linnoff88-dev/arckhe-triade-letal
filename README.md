@@ -1,4 +1,4 @@
-﻿# TrÃ­ade Letal
+ï»¿# TrêÂ­ade Letal
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,43 +6,43 @@
 </div>
 
 
-[![TrÃ­ade Letal](guia/assets/banner.jpg)](https://inematds.github.io/triade-letal/guia/)
+[![TrêÂ­ade Letal](guia/assets/banner.jpg)](https://inematds.github.io/triade-letal/guia/)
 
-**ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
+**ê°Å¸â¡Â§ê°Å¸â¡Â· [PortuguêÂªs](README.md) êÂ· ê°Å¸â¡Âºê°Å¸â¡Â¸ [English](README.en.md) êÂ· ê°Å¸â¡Âªê°Å¸â¡Â¸ [EspaêÂ±ol](README.es.md)**
 
-Seu agente de IA pode vazar seus dados? Pode, se ele junta trÃªs coisas ao mesmo tempo (o nome Ã© de Simon Willison):
+Seu agente de IA pode vazar seus dados? Pode, se ele junta trêÂªs coisas ao mesmo tempo (o nome êÂ© de Simon Willison):
 
-1. **Dados privados**: lÃª e-mail, agenda, banco de clientes, arquivos, `.env`.
-2. **ConteÃºdo de terceiros**: lÃª texto que outra pessoa escreveu (WhatsApp, e-mail recebido, pÃ¡gina web, PDF).
-3. **Canal de saÃ­da**: consegue mandar algo para fora (mensagem, URL, upload, webhook).
+1. **Dados privados**: lêÂª e-mail, agenda, banco de clientes, arquivos, `.env`.
+2. **ConteêÂºdo de terceiros**: lêÂª texto que outra pessoa escreveu (WhatsApp, e-mail recebido, pêÂ¡gina web, PDF).
+3. **Canal de saêÂ­da**: consegue mandar algo para fora (mensagem, URL, upload, webhook).
 
-Com as trÃªs, qualquer pessoa que escreva o item 2 pode dar ordens ao agente. A defesa Ã© **cortar uma perna**.
+Com as trêÂªs, qualquer pessoa que escreva o item 2 pode dar ordens ao agente. A defesa êÂ© **cortar uma perna**.
 
-## ðŸ“– Guia de uso
+## ê°Å¸ââ Guia de uso
 
 Guia completo (landing + passo a passo): **https://inematds.github.io/triade-letal/guia/**
 
 ## O que tem aqui
 
-| Arquivo | Para quÃª |
+| Arquivo | Para quêÂª |
 |---|---|
-| `inventario.py` | lista os servidores MCP do Claude Code e do Codex e monta a matriz para vocÃª preencher |
+| `inventario.py` | lista os servidores MCP do Claude Code e do Codex e monta a matriz para vocêÂª preencher |
 | `CHECKLIST.md` | o passo a passo e as defesas, da mais forte para a mais fraca |
-| `EXEMPLOS.md` | a trÃ­ade nos kits atende-clinica, reserva-restaurante e reserva-hotel |
+| `EXEMPLOS.md` | a trêÂ­ade nos kits atende-clinica, reserva-restaurante e reserva-hotel |
 
-## Uso rÃ¡pido
+## Uso rêÂ¡pido
 
 ```bash
 git clone https://github.com/inematds/triade-letal && cd triade-letal
-python3 inventario.py --demo          # exemplo fictÃ­cio
-python3 inventario.py --md matriz.md  # sua mÃ¡quina; grava a matriz
+python3 inventario.py --demo          # exemplo fictêÂ­cio
+python3 inventario.py --md matriz.md  # sua mêÂ¡quina; grava a matriz
 ```
 
-O script sÃ³ lÃª arquivos de configuraÃ§Ã£o (`~/.claude.json`, `./.mcp.json`, `~/.codex/config.toml`). NÃ£o acessa a rede e nÃ£o imprime segredos. O "talvez" que ele marca Ã© palpite pelo nome; quem confirma Ã© vocÃª.
+O script sêÂ³ lêÂª arquivos de configuraêÂ§êÂ£o (`~/.claude.json`, `./.mcp.json`, `~/.codex/config.toml`). NêÂ£o acessa a rede e nêÂ£o imprime segredos. O "talvez" que ele marca êÂ© palpite pelo nome; quem confirma êÂ© vocêÂª.
 
-Inspirado na palestra de Simon Willison sobre os Ãºltimos seis meses de LLMs. Projeto irmÃ£o: [Arena da Capivara](https://inematds.github.io/arena-capivara/guia/).
+Inspirado na palestra de Simon Willison sobre os êÂºltimos seis meses de LLMs. Projeto irmêÂ£o: [Arena da Capivara](https://inematds.github.io/arena-capivara/guia/).
 
-LicenÃ§a MIT Â· [INEMA.CLUB](https://inema.club)
+LicenêÂ§a MIT êÂ· [INEMA.CLUB](https://inema.club)
 
 ---
 
